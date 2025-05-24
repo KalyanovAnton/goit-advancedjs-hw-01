@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <form class="feedback-form" autocomplete="off">
+      <label class="feedback-form-label">
+        Email
+        <input
+          class="feedback-form-input"
+          type="email"
+          name="email"
+          autofocus
+        />
+      </label>
+      <label class="feedback-form-label">
+        Message
+        <textarea
+          class="feedback-form-message"
+          name="message"
+          rows="8"
+        ></textarea>
+      </label>
+      <button class="feedback-form-submit" type="submit">Submit</button>
+    </form>
+
+    <script type="module" src="./js/2-form.js"></script>
+  </body>
+</html>
