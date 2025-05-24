@@ -79,3 +79,23 @@
   color: #333;
   gap: 6px;
 }
+
+.link-list {
+}
+.link-item {
+  list-style: none;
+  padding: 4px;
+  font-size: 25px;
+}
+.link {
+  text-decoration: none;
+  transition: transform 500ms ease, color 300ms ease;
+  display: inline-block; 
+  color: black
+  
+}
+
+.link:hover,
+.link:focus{
+  color: red;
+}
